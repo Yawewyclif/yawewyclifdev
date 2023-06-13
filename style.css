@@ -1,0 +1,455 @@
+body{
+    text-align: center;
+    color: white;
+   background-color: rgb(17, 17, 75);
+    margin: 0px;
+    padding: 0px;
+ 
+
+}
+.section-b{
+    background-color: rgb(17, 17, 75);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.info {
+    text-align: start;
+    display: grid;
+    grid-gap: 5px;
+}
+
+.info a{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.info b{
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.social .fa:hover{
+    border-radius: 50px;
+    opacity: 5;
+    transition: 0.5s;
+    
+}
+.social .fa-facebook:hover{
+    color: blue;
+    background-color: white;
+}
+.social .fa-twitter:hover{
+    color: skyblue;
+    background-color: white;
+}
+.social .fa-whatsapp:hover{
+    color: green;
+    background-color: white;
+}
+.social .fa-linkedin:hover{
+    color: #333;
+    background-color: white;
+}
+.social .fa{
+    padding: 5px;
+}
+.button{
+    text-align: center;
+}
+.button a:nth-child(2){
+    color: #333;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    display: inline-block;
+    width: 90px;
+    margin-top: 15px;
+}
+.button a:nth-child(2):hover{
+    background: linear-gradient(to right,rgb(55, 55, 177) 50%, rgb(30, 148, 103) 50%) right;
+    background-size: 200%;
+    transition:  0.5s ease-out;
+    color:whitesmoke;
+}
+
+
+.social a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 400;
+    font-size: 20px;
+}
+.social{
+    
+    padding-bottom: 10px;
+}
+.find p{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(107, 98, 98);
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+.h1{
+    background-color: rgb(17, 17, 75);
+    position: sticky;
+    cursor: grab;
+}
+.h1 h1{
+    font-size: 30px;
+} 
+.h1::first-letter{
+    color: red;
+}
+.section-c .fa{
+    font-size: 70px;
+    color: red;
+}
+.header h1{
+    margin: 5px;
+    font-family: 'Courier New', monospace;
+}
+.button a:nth-child(1){
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-image: linear-gradient(45deg,blue, red);
+    padding: 10px;
+    border-radius: 30px;
+}
+.button a:nth-child(1):hover{
+    background-image: linear-gradient(45deg,blue, red);
+    transition: 0.5s;
+    font-weight: bold;
+    border: none;
+}
+.about-info h4,h3{
+ margin: 5px;
+}
+h4 span{
+    color: red;
+}
+.about-info p{
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(172, 170, 170);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.about-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-c{
+    color: #333;
+    background:transparent;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.section-c div{
+    background-color:  rgb(17, 17, 75);
+    box-shadow: 0px 15px 17px 0px black;
+    border-radius: 30px;
+}
+.talk-btn a{
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid orangered;
+    border-radius: 50px;
+    padding: 5px;
+    color: rgba(255, 255, 255);
+    background-color: orangered;
+    
+}
+.talk-btn a:hover{
+    color: white;
+    background-color:transparent;
+    transition: 0.5s;
+}
+.talk-btn{
+    padding: 10px;
+}
+.about-me{
+    background-color:  rgb(17, 17, 75);
+    border-radius:30px;
+    box-shadow: 0px 15px 17px 0px black;
+    margin: 10px;
+}
+.about-img{
+    border-radius:30px;
+}
+.about-img img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.section-c h3 {
+    margin: 5px;
+    color:white;
+}
+.section-c div p{
+    color: rgba(255, 166, 0, 0.404);
+}
+
+.section-b p:nth-child(2){
+font-size: 30px;
+margin:10px 0px 10px 0px;
+}
+.section-b p:nth-child(1){
+    color: red;
+    margin:5px 0px 5px 0px;
+}
+.section-b p:nth-child(3){
+    color: rgba(255, 228, 196, 0.74);
+}
+.section-c  p{
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper{
+    background-color: rgb(17, 17, 75);
+    padding: 1px;
+    padding-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+ li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+li a:hover{
+    color: chocolate;
+    margin-left: 8px;
+    transition: 0.15s;
+ 
+}
+.profile img{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+
+
+  .name{
+    color: firebrick;
+  }
+
+
+.contact{
+    cursor: pointer;
+}
+
+
+  @media(min-width:900px){
+    .wrapper{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    }
+
+    .ssection-c,p,h3{
+        cursor: pointer;
+    }
+  }
+@media(min-width:700px){
+    .section-c{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .profile img{
+        width: 200px;
+    }
+    .about-me{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .profile img{
+        width: 100%;
+        border-radius: 50px;
+    }
+    
+    .contact-div{
+        border-bottom-left-radius: 50px;
+    }
+   
+    .button a:nth-child(2){
+        color: #333;
+        background-color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 10px;
+        padding: 10px;
+        border-radius: 30px;
+        display: inline-block;
+        width: 90px;
+        margin-top: 15px;
+    }
+   .fa-wrap{
+    text-align: start;
+   }
+
+    .header h1{
+        font-size: 60px;
+    }
+    .section-c div:nth-child(2){
+        border-left: 1px solid  rgba(51, 51, 51, 0.685);
+        border-right: 1px solid  rgba(51, 51, 51, 0.685);
+    }
+    .section-c div{
+        margin: 10px;
+    }
+
+    .button a:hover:nth-child(1){
+        background-image: linear-gradient(45deg, blue,red);
+        transition: 0.1s;
+        font-weight: bold;
+        border: none;
+        border-top-right-radius: 0px;
+        border-style: intset;
+    }
+ 
+
+    .section-b{
+        display:grid ;
+        grid-template-columns: 1fr 1fr;
+        border: solid 1px skyblue;
+        border-radius: 20px;
+        border-top-right-radius:0px ;
+    }
+
+    .section-b{
+        margin-top: 100px;
+    }
+    img{
+        text-align: center;
+      width: 400px;
+    }
+   .wrapper{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+   }
+   .button{
+    margin:10px 10px 10px 0px;
+    display:inline-block;
+    border-radius: 30px;
+   }
+
+   .header{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
+  
+   ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: right;
+   }
+   li a:hover{
+    color: white;
+    transition: 0.15s;
+    border-bottom:3px solid chocolate;
+    padding-bottom: 5px;
+    }
+
+    li .default{
+        border-bottom:1px solid chocolate;
+    }
+li a {
+   margin-left: 10px;
+   margin-right: 10px; 
+   font-size: 16px;
+   color: burlywood;
+}
+.section-b p:nth-child(2){
+    font-size: 40px;
+}
+
+ul{
+    margin-right: 20px;
+}
+
+.content-wrap{
+    padding: 0px 20px 20px 20px;
+    text-align: start;
+}
+
+
+
+ h1 {
+    text-align: start;
+    font-size: 40px;
+ }
+}
+
+
+@media(min-width:245px){
+    .profile{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 0px;
+
+    }
+
+    .profile img{
+        width: 250px;
+    }
+}
+
+@media(min-width:405px){
+    .profile{
+        width: 405px;
+    }
+    .profile img{
+        width: 405px;
+    }
+}
+@media(min-width:435px){
+    .profile{
+        width: 435px;
+    }
+    .profile img{
+        width: 435px;
+    }
+}
+
+@media(min-width:530px){
+    .profile{
+        width: 500px;
+    }
+    .profile img{
+        width: 500px;
+    }
+}
